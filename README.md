@@ -18,6 +18,12 @@ WP-Scan is a CLI-based WordPress vulnerability scanner designed for security pro
 - 🧵 Detect Full Path Disclosure.
 
 
+### **⚠️ Note**:
+- **This tool is for educational purposes and legal penetration testing only!**
+- **It is strictly forbidden to use it for illegal activities**
+- **The developer is not responsible for the service**
+
+
 # ⚙️ Installation
 
 

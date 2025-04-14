@@ -27,7 +27,7 @@ WP-Scan is a CLI-based WordPress vulnerability scanner designed for security pro
 # ⚙️ Installation
 
 
-## 📱 Running WP-Scan on Termux (Android)
+### 📱 Running WP-Scan on Termux (Android)
 
 1. **🛠️ Update & Install Dependencies**
 ```bash
@@ -47,7 +47,7 @@ pip install requests bs4
 ```
 
 
-## 🖥 Running With Linux (Ubuntu/Debian)
+### 🖥 Running With Linux (Ubuntu/Debian)
 
 1. **⚒️ install dependencies**
 ```bash

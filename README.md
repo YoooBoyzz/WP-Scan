@@ -78,7 +78,8 @@ gem update wpscan
 ```
 
 
-#📱 Running WP-Scan on Termux (Android)
+## 📱 Running WP-Scan on Termux (Android)
+
 1. **🛠️ Update & Install Dependencies**
 ```bash
 pkg update && pkg upgrade

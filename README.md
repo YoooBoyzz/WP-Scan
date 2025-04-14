@@ -19,63 +19,6 @@ WP-Scan is a CLI-based WordPress vulnerability scanner designed for security pro
 
 
 # ⚙️ Installation
-🐧 Linux (Debian/Ubuntu)
-
-```bash
-sudo apt update && sudo apt install ruby-full git build-essential libcurl4-openssl-dev libssl-dev zlib1g-dev -y
-sudo gem install wpscan
-```
-
-### 🐳 Docker
-
-```bash
-docker pull wpscanteam/wpscan
-```
-
-### 🍎 Homebrew (macOS)
-
-```bash
-brew install wpscanteam/tap/wpscan
-```
-
-### ▶️ Basic Usage
-
-Scan a site:
-
-```bash
-wpscan --url https://example.com
-```
-
-Enumerate users:
-
-```bash
-wpscan --url https://example.com --enumerate u
-```
-
-Stealth mode (silent scan):
-
-```bash
-wpscan --stealthy --url https://example.com
-```
-
-Show all options:
-
-```bash
-wpscan --help
-```
-
-# 🔄 Updates
-Update vulnerability database:
-
-```bash
-wpscan --update
-```
-
-Update WPScan itself:
-
-```bash
-gem update wpscan
-```
 
 
 ## 📱 Running WP-Scan on Termux (Android)
@@ -83,8 +26,7 @@ gem update wpscan
 1. **🛠️ Update & Install Dependencies**
 ```bash
 pkg update && pkg upgrade
-pkg install git ruby -y
-gem install bundler
+pkg install python git
 ```
 
 2. **🔽 Clone WP-Scan Repository**
@@ -93,27 +35,35 @@ git clone https://github.com/YoooBoyzz/WP-Scan.git
 cd WP-Scan
 ```
 
-3. **📦 Install Ruby Dependencies**
+3. **📦 Install Requirements**
 ```bash
-bundle install
+pip install requests bs4
 ```
 
 
-If bundle install throws errors, try:
+## 🖥 Running With Linux (Ubuntu/Debian)
 
+1. **⚒️ install dependencies**
 ```bash
-gem install nokogiri
-gem install public_suffix
+ sudo apt update && sudo apt install python3 python3-pip git
 ```
 
-4. **▶️ Run WP-Scan**:
+2. **🔽 Clone WP-Scan Repository**
 ```bash
-ruby wpscan.rb --url https://example.com
+git clone https://github.com/YoooBoyzz/WP-Scan.git
+cd WP-Scan
 ```
-Or:
+
+3. **📦 Install Requirements**
+```bash
+pip3 install requests bs4
+```
+
+
+### **▶️ Run WP-Scan**:
 
 ```bash
-ruby bin/wpscan --url https://example.com
+python3 wpbrute.py
 ```
 
 

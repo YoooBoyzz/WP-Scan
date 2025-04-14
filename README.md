@@ -3,7 +3,7 @@
 
 WP-Scan is a CLI-based WordPress vulnerability scanner designed for security professionals and website owners to audit their WordPress site's security. ⚔️🛡️
 
-**✨ Features**:
+### **✨ Features**:
 
 - 🔍 Detect WordPress version and known vulnerabilities.
 - 🧩 Identify installed plugins & themes and their vulnerabilities.

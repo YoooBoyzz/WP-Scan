@@ -117,6 +117,6 @@ ruby bin/wpscan --url https://example.com
 ```
 
 
-## License
+### License
 
 This project is open source and available under the [MIT License](LICENSE).
